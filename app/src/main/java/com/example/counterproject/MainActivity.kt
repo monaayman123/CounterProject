@@ -23,8 +23,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             CounterProjectTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Mona",
+                    FunRenamed(
+                        modifier = Modifier.padding(innerPadding)
+                    )
+                    FunRenamed(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -60,9 +62,7 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
-@Preview(showBackground = true,
-    uiMode = Configuration.UI_MODE_NIGHT_YES or Configuration.UI_MODE_TYPE_NORMAL
-)
+
 @Composable
 fun GreetingDarkPreview() {
     CounterProjectTheme {
