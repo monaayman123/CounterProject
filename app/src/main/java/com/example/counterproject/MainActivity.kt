@@ -45,3 +45,12 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+@Preview(showBackground = true,
+    uiMode = Configuration.UI_MODE_NIGHT_YES or Configuration.UI_MODE_TYPE_NORMAL
+)
+@Composable
+fun GreetingDarkPreview() {
+    CounterProjectTheme {
+        Greeting("Android")
+    }
+}
