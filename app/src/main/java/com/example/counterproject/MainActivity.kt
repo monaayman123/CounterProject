@@ -49,7 +49,7 @@ fun GreetingPreview() {
 @Composable
 fun ByGeorge (modifier: Modifier = Modifier) {
     Text(
-        text = "Hello !",
+        text = "Hello, I am George!",
         modifier = modifier
     )
 }
