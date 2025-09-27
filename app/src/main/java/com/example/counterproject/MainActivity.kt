@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Robert(modifier: Modifier = Modifier) {
+fun FunRenamed(modifier: Modifier = Modifier) {
     Column (
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
