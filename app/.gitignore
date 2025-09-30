@@ -1,1 +1,8 @@
 /build
+local.properties
+.idea
+.gradle/
+app/build/
+proguard-rules.pro
+.DS_Store
+
