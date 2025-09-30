@@ -68,4 +68,10 @@ fun GreetingDarkPreview() {
     CounterProjectTheme {
         Greeting("Android")
     }
-}
+@Composable
+fun ByGeorge (modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello, I am George!",
+        modifier = modifier
+    )
+}}
